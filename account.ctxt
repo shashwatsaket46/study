@@ -1,0 +1,15 @@
+#BlueJ class context
+comment0.target=account
+comment1.params=Name\ accno\ b
+comment1.target=account(java.lang.String,\ double,\ double)
+comment2.params=Name\ accno\ addr\ t\ b
+comment2.target=account(java.lang.String,\ double,\ java.lang.String,\ java.lang.String,\ double)
+comment3.params=a
+comment3.target=void\ Deposite(double)
+comment4.params=a
+comment4.target=void\ WithDraw(double)
+comment5.params=
+comment5.target=double\ Getbalance()
+comment6.params=
+comment6.target=void\ show()
+numComments=7

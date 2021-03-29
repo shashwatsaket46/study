@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.target=prime
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ prime\ here.\r\n\r\n\ @author\ (your\ name)\r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=n
+comment1.target=boolean\ prime(int)
+comment2.params=args
+comment2.target=void\ main(java.lang.String[])
+numComments=3

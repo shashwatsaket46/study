@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class name="Test_Account" extends="account" extends-java="account" enable="true" strideversion="1">
+    <javadoc xml:space="preserve"/>
+    <imports/>
+    <implements/>
+    <fields/>
+    <constructors/>
+    <methods>
+        <method access="public" static="true" type="void" type-java="void" name="main" enable="true">
+            <javadoc xml:space="preserve"/>
+            <params>
+                <params type="String[]" type-java="String[]" name="arg"/>
+            </params>
+            <throws>
+                <throwstype type="Exception" type-java="Exception"/>
+            </throws>
+            <body>
+                <variable type="account" type-java="account" name="a1" value="new account(&quot;BIT&quot;,65443,5000)" value-java=" new account(&quot;BIT&quot;, 65443, 5000)" enable="true"/>
+                <variable type="account" type-java="account" name="a3" value="new account(&quot;Shashwat Saket&quot;,60026,5000)" value-java=" new account(&quot;Shashwat Saket&quot;, 60026, 5000)" enable="true"/>
+                <variable type="account" type-java="account" name="a4" value="new account(&quot;JavaSubject&quot;,65444,5000)" value-java=" new account(&quot;JavaSubject&quot;, 65444, 5000)" enable="true"/>
+                <variable type="account" type-java="account" name="a2" value="new account(&quot;BIT&quot;,1332,&quot;Deoghar&quot;,&quot;Current account&quot;,5000)" value-java=" new account(&quot;BIT&quot;, 1332, &quot;Deoghar&quot;, &quot;Current account&quot;, 5000)" enable="true"/>
+                <assign dest="a1.Address" dest-java="a1.Address" src="&quot;Ranchi&quot;" src-java="&quot;Ranchi&quot;" enable="true"/>
+                <assign dest="a1.AccountType" dest-java="a1.AccountType" src="&quot;Savings&quot;" src-java="&quot;Savings&quot;" enable="true"/>
+                <call expression="a1.Deposite(2000)" expression-java="a1.Deposite(2000)" enable="true"/>
+                <call expression="a4.show()" expression-java="a4.show()" enable="true"/>
+                <assign dest="a3.Address" dest-java="a3.Address" src="&quot;Delhi&quot;" src-java="&quot;Delhi&quot;" enable="true"/>
+                <assign dest="a3.AccountType" dest-java="a3.AccountType" src="&quot;FD&quot;" src-java="&quot;FD&quot;" enable="true"/>
+                <call expression="a3.Deposite(456)" expression-java="a3.Deposite(456)" enable="true"/>
+                <assign dest="a4.Address" dest-java="a4.Address" src="&quot;Patna&quot;" src-java="&quot;Patna&quot;" enable="true"/>
+                <assign dest="a4.AccountType" dest-java="a4.AccountType" src="&quot;FD&quot;" src-java="&quot;FD&quot;" enable="true"/>
+                <call expression="a4.Deposite(200)" expression-java="a4.Deposite(200)" enable="true"/>
+                <call expression="a2.WithDraw(642)" expression-java="a2.WithDraw(642)" enable="true"/>
+                <call expression="a2.Deposite(a2.Getbalance())" expression-java="a2.Deposite(a2.Getbalance())" enable="true"/>
+                <call expression="a1.show()" expression-java="a1.show()" enable="true"/>
+                <call expression="a2.show()" expression-java="a2.show()" enable="true"/>
+                <call expression="a3.show()" expression-java="a3.show()" enable="true"/>
+            </body>
+        </method>
+    </methods>
+</class>
