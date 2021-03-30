@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.target=mazepath
+comment0.text=\r\n\ This\ is\ basically\ printing\ number\ of\ possibilities\ to\ reach\ last\ cell\ of\ matrix\ from\ 1st\ cell.\r\n\r\n\ @author\ Shashwat\ Saket\r\n\ @version\ 30/3/2021\r\n
+comment1.params=i\ j\ n\ m\ o
+comment1.target=void\ maze(int,\ int,\ int,\ int,\ java.lang.String)
+comment2.params=args
+comment2.target=void\ main(java.lang.String[])
+numComments=3
